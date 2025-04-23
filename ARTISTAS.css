@@ -4162,7 +4162,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
-   margin: 60px 0 20px 0 ;
+   margin: 100px 0 0 0 ;
    text-align: center;
 }
 #wb_Text11 div
@@ -4172,7 +4172,7 @@ body
 #wb_Text11
 {
    display: block;
-   margin: 60px 0 20px 0 ;
+   margin: 100px 0 0 0 ;
    box-sizing: border-box;
    width: 100%;
 }
@@ -4212,7 +4212,7 @@ body
 }
 #wb_Image10
 {
-   margin: 0;
+   margin: 50px 0 0 0 ;
    vertical-align: top;
 }
 #Image10
