@@ -16,31 +16,31 @@
 <script>
 $(document).ready(function()
 {
-   $('#wb_LayoutGrid3').addClass('visibility-hidden');
+   $('#wb_LayoutGrid14').addClass('visibility-hidden');
    $('#Layer1').parallax();
-   function onScrollLayoutGrid3()
+   function onScrollLayoutGrid14()
    {
-      var $obj = $("#wb_LayoutGrid3");
+      var $obj = $("#wb_LayoutGrid14");
       if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
       {
          $obj.addClass("in-viewport");
-         AnimateCss('wb_LayoutGrid3', 'slide-down-in', 0, 1250);
+         AnimateCss('wb_LayoutGrid14', 'slide-down-in', 0, 1250);
       }
       else
       if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
       {
          $obj.removeClass("in-viewport");
-         AnimateCss('wb_LayoutGrid3', 'animate-fade-out', 0, 0);
+         AnimateCss('wb_LayoutGrid14', 'animate-fade-out', 0, 0);
       }
    }
-   if (!$('#wb_LayoutGrid3').inViewPort(true))
+   if (!$('#wb_LayoutGrid14').inViewPort(true))
    {
-      $('#wb_LayoutGrid3').addClass("in-viewport");
+      $('#wb_LayoutGrid14').addClass("in-viewport");
    }
-   onScrollLayoutGrid3();
+   onScrollLayoutGrid14();
    $(window).scroll(function(event)
    {
-      onScrollLayoutGrid3();
+      onScrollLayoutGrid14();
    });
 });
 </script>
@@ -79,11 +79,11 @@ $(document).ready(function()
 
 <div id="Layer1" style="position:relative;text-align:center;width:100%;height:77.5578%;float:left;clear:left;display:block;z-index:72;">
 <div id="Layer1_Container" style="width:1200px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_LayoutGrid3">
-<div id="LayoutGrid3">
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
 <div class="row">
 <div class="col-1">
-<div id="wb_Text2">
+<div id="wb_Text11">
 <span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:48px;"><strong>MÚSICA</strong></span>
 </div>
 </div>
@@ -95,14 +95,14 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Image2" style="display:block;width:100%;height:auto;z-index:6;">
-<img src="images/PORTADAS-Afro-Beats.jpg" id="Image2" alt="" width="270" height="270">
+<a href="https://open.spotify.com/playlist/7ptLKuxnHoA29M84CFQwZO?si=adc8c3bbab0b4945" onmouseover="SetImage('Image2','images/PORTADAS-Afro-Beats.jpg');return false;" onmouseout="SetImage('Image2','images/Sin-título-1.jpg');return false;"><img src="images/Sin-título-1.jpg" id="Image2" alt="" width="270" height="270"></a>
 </div>
 <div id="wb_LayoutGrid5">
 <div id="LayoutGrid5">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text3">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>AFRO BEATS</strong></span>
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">AFRO BEATS</span>
 </div>
 </div>
 </div>
@@ -111,14 +111,14 @@ $(document).ready(function()
 </div>
 <div class="col-2">
 <div id="wb_Image3" style="display:block;width:100%;height:auto;z-index:9;">
-<img src="images/PORTADAS-Dembow.jpg" id="Image3" alt="" width="270" height="270">
+<a href="https://open.spotify.com/playlist/5XfQYaYd1bl6VuzKCw1yMN?si=c2fad1f40720464d" onmouseover="SetImage('Image3','images/PORTADAS-Dembow (2).jpg');return false;" onmouseout="SetImage('Image3','images/PORTADAS-Dembow.jpg');return false;"><img src="images/PORTADAS-Dembow.jpg" id="Image3" alt="" width="270" height="270"></a>
 </div>
 <div id="wb_LayoutGrid6">
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text4">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>DEMBOW</strong></span>
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">DEMBOW</span>
 </div>
 </div>
 </div>
@@ -127,14 +127,14 @@ $(document).ready(function()
 </div>
 <div class="col-3">
 <div id="wb_Image4" style="display:block;width:100%;height:auto;z-index:12;">
-<img src="images/PORTADAS-drill.jpg" id="Image4" alt="" width="270" height="270">
+<a href="https://open.spotify.com/playlist/3CZZ7PKbLd80Vqr1ETk6Em?si=cac129a6855c4af2" onmouseover="SetImage('Image4','images/PORTADAS-drill (2).jpg');return false;" onmouseout="SetImage('Image4','images/PORTADAS-drill.jpg');return false;"><img src="images/PORTADAS-drill.jpg" id="Image4" alt="" width="270" height="270"></a>
 </div>
 <div id="wb_LayoutGrid7">
 <div id="LayoutGrid7">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text5">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>DRILL</strong></span>
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">DRILL</span>
 </div>
 </div>
 </div>
@@ -143,14 +143,14 @@ $(document).ready(function()
 </div>
 <div class="col-4">
 <div id="wb_Image5" style="display:block;width:100%;height:auto;z-index:15;">
-<img src="images/PORTADAS-Merengue.jpg" id="Image5" alt="" width="270" height="270">
+<a href="https://open.spotify.com/playlist/1QK2510mWMIjEMARCRR2Jv?si=706986b254c44cd1" onmouseover="SetImage('Image5','images/PORTADAS-Merengue (2).jpg');return false;" onmouseout="SetImage('Image5','images/PORTADAS-Merengue.jpg');return false;"><img src="images/PORTADAS-Merengue.jpg" id="Image5" alt="" width="270" height="270"></a>
 </div>
-<div id="wb_LayoutGrid11">
-<div id="LayoutGrid11">
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>MERENGUE</strong></span>
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">MEREMGUE</span>
 </div>
 </div>
 </div>
@@ -160,19 +160,19 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid13">
-<div id="LayoutGrid13">
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
 <div class="row">
 <div class="col-1">
 <div id="wb_Image6" style="display:block;width:100%;height:auto;z-index:18;">
-<a href="https://open.spotify.com/playlist/69chSOY6s1va0km6LHHilt?si=b6e0118dd65c4ccd"><img src="images/PORTADAS-R&B.jpg" id="Image6" alt="" width="270" height="270"></a>
+<a href="https://open.spotify.com/playlist/6JNk1QJZQCM56fULZmdvwl?si=62c16f55290245d0" onmouseover="SetImage('Image6','images/PORTADAS-R&B (2).jpg');return false;" onmouseout="SetImage('Image6','images/PORTADAS-R&B.jpg');return false;"><img src="images/PORTADAS-R&B.jpg" id="Image6" alt="" width="270" height="270"></a>
 </div>
-<div id="wb_LayoutGrid14">
-<div id="LayoutGrid14">
+<div id="wb_LayoutGrid10">
+<div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
 <div id="wb_Text7">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>R&amp;B</strong></span>
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">R&amp;B</span>
 </div>
 </div>
 </div>
@@ -180,15 +180,15 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image9" style="display:block;width:100%;height:auto;z-index:21;">
-<img src="images/PORTADAS-rap-hiphop.jpg" id="Image9" alt="" width="270" height="270">
+<div id="wb_Image7" style="display:block;width:100%;height:auto;z-index:21;">
+<a href="https://open.spotify.com/playlist/1KZHCIcyyUG5stwzslXD7o?si=0471e2e762b848d8" onmouseover="SetImage('Image7','images/PORTADAS-rap-hiphop (2).jpg');return false;" onmouseout="SetImage('Image7','images/PORTADAS-rap-hiphop.jpg');return false;"><img src="images/PORTADAS-rap-hiphop.jpg" id="Image7" alt="" width="270" height="270"></a>
 </div>
-<div id="wb_LayoutGrid21">
-<div id="LayoutGrid21">
+<div id="wb_LayoutGrid11">
+<div id="LayoutGrid11">
 <div class="row">
 <div class="col-1">
-<div id="wb_Text10">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>RAP / HIP HOP</strong></span>
+<div id="wb_Text8">
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">RAP / HIP HOP</span>
 </div>
 </div>
 </div>
@@ -196,15 +196,15 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-3">
-<div id="wb_Image7" style="display:block;width:100%;height:auto;z-index:24;">
-<img src="images/PORTADAS-reggaeton.jpg" id="Image7" alt="" width="270" height="270">
+<div id="wb_Image8" style="display:block;width:100%;height:auto;z-index:24;">
+<a href="https://open.spotify.com/playlist/110RrcaBeTzsfp5Ghnfxwe?si=7988f7f185894547" onmouseover="SetImage('Image8','images/PORTADAS-reggaeton (2).jpg');return false;" onmouseout="SetImage('Image8','images/PORTADAS-reggaeton.jpg');return false;"><img src="images/PORTADAS-reggaeton.jpg" id="Image8" alt="" width="270" height="270"></a>
 </div>
-<div id="wb_LayoutGrid15">
-<div id="LayoutGrid15">
+<div id="wb_LayoutGrid12">
+<div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_Text8">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>REGGAETON</strong></span>
+<div id="wb_Text9">
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">REGGAETON</span>
 </div>
 </div>
 </div>
@@ -212,15 +212,15 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-4">
-<div id="wb_Image8" style="display:block;width:100%;height:auto;z-index:27;">
-<img src="images/PORTADAS-trap.jpg" id="Image8" alt="" width="270" height="270">
+<div id="wb_Image9" style="display:block;width:100%;height:auto;z-index:27;">
+<a href="https://open.spotify.com/playlist/7aT4sfUrpHds1rPksVRdEd?si=96e160fd52cc4726" onmouseover="SetImage('Image9','images/PORTADAS-trap (2).jpg');return false;" onmouseout="SetImage('Image9','images/PORTADAS-trap.jpg');return false;"><img src="images/PORTADAS-trap.jpg" id="Image9" alt="" width="270" height="270"></a>
 </div>
-<div id="wb_LayoutGrid18">
-<div id="LayoutGrid18">
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
 <div class="row">
 <div class="col-1">
-<div id="wb_Text9">
-<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:800;font-size:37px;"><strong>TRAP</strong></span>
+<div id="wb_Text10">
+<span style="color:#FFFFFF;font-family:'Advent Pro';font-weight:900;font-size:32px;">TRAP</span>
 </div>
 </div>
 </div>
